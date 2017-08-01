@@ -1,0 +1,109 @@
+/** 
+* Styling for the app container
+*/
+.App {
+  text-align: center;
+}
+
+/** 
+* Styling for 'You have selected these tickers to compare' section 
+*/
+.selected-tickers .selected-ticker {
+  font-weight: bold;
+}
+
+.selected-ticker {
+  margin: 5px;
+}
+
+/** 
+* Styling for the 'Select tickers to compare' form 
+*/
+.select-tickers {
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.error-message {
+  color: red;
+}
+
+.generate-asset-btn {
+  text-transform: uppercase;
+}
+
+.generate-asset-btn {
+  display: block;
+  margin: 20px auto;
+}
+
+/**
+* Styling for 'reset' button
+*/ 
+.reset-btn {
+  text-transform: uppercase;
+}
+
+/** 
+* Styling for the asset correlations table legend 
+*/
+.legend {
+  font-size: 12px;
+  font-weight: bold;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.legend-most-positive, .legend-most-negative {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.legend-most-positive {
+  background-color: lightgreen;
+}
+
+.legend-most-negative {
+  background-color: pink;
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+/**
+* Styling for the asset correlations table 
+*/
+.asset-correlations-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+.asset-correlations-table-caption {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.asset-correlations-table th, td, tr {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.asset-correlations-table td.ticker-lower-bound {
+  background-color: pink;
+}
+
+.asset-correlations-table td.ticker-upper-bound {
+  background-color: lightgreen;
+}
+
+.asset-correlations-table th {
+  background-color: lightgrey;
+}
+
+.asset-correlations-table .row-col-title {
+  font-weight: bold;
+  background-color: lightgrey;
+}
